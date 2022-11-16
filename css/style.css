@@ -317,6 +317,15 @@ margin-bottom: 94px;
     padding-bottom:var(--primary-padding-bottom) ;
 
 }
+.team {
+    display: flex;
+}
+.team .team-list:not(:last-child) {
+    margin-right: 30px;
+}
+.team-picks {
+    margin-bottom: 30px;
+}
 
 /* ------------Підвал------------*/
 
