@@ -8,6 +8,9 @@
     --adres-color:rgba(255, 255, 255, 0.6);
     --work-fon-color:#F5F5F5;
 
+    --primary-padding-bottom: 10px;
+    --secrondary-padding-bottom: 94px;
+
 }
 /* Палітра кольорів сайту */
 /* Колір header : #FFFFFF; */
@@ -31,11 +34,27 @@ body {
     letter-spacing: 0.03em;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+   
+
+}
+
 /* ------------Шапка------------*/
 
-.head-top {
+.head-top  {
     background-color: var(--primary-fon-color);
 }
+.portfolio-top{
+margin-bottom: 94px;
+} 
+
 .logo {
     font-family: 'Raleway', 'sans-serif';
     font-weight: 700;
@@ -49,7 +68,10 @@ body {
 }
 
 /* ------------Навігація по сайті------------*/
-
+.head-top {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 
 .site-nav {
@@ -111,6 +133,14 @@ body {
 
 .section-hero {
     background-color: var(--darc-fon-color);
+    width: 1600px;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: var(--secrondary-padding-bottom);
+    
     
 }
 .hero-title {
@@ -118,9 +148,9 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 /* ------------Кнопи------------*/
@@ -139,6 +169,7 @@ body {
 
 .button {
     background-color: var(--secondary-fon-col);
+    
 }
 
 .button-filter:hover,
@@ -162,6 +193,7 @@ body {
  }
 
 .button-style {
+    display: inline-block;
     background-color: var(--acent-color);
     color: var(--primary-fon-color);
     border: none;
@@ -171,9 +203,11 @@ body {
     line-height: 1.87;
     display: flex;
     align-items: center;
-    text-align: center;
     background: #2196F3;
     border-radius: 4px;
+    padding-left: auto;
+    padding-right: auto;
+    
 }   
 .button-style:hover,
 .button-style:focus,
@@ -185,6 +219,10 @@ body {
     border-radius: 4px;
 }
 /* ------------Наші переваги------------*/
+
+.section-benefits {
+    margin-bottom: 118px;
+}
 
 .visually-hidden { 
     position: absolute;
@@ -204,6 +242,7 @@ body {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
+    padding-bottom:var(--primary-padding-bottom) ;
 }
 .paragraph {
     
@@ -217,12 +256,20 @@ body {
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    
 }
-
+.section-work-title {
+    padding-bottom: 50px;
+}
+.list-work {
+    padding-bottom: var(--secrondary-padding-bottom);
+}
 /* ------------Наша команда------------*/
 
 .section-team {
     background-color: var(--secondary-fon-col);
+    padding-bottom: var(--secrondary-padding-bottom);
+    
 }
 
 .section-title {
@@ -230,6 +277,7 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .paragraph-team {
@@ -242,6 +290,7 @@ body {
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
+    padding-bottom:var(--primary-padding-bottom) ;
 
 }
 
@@ -286,9 +335,26 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    padding-bottom: 4px;
 }
 .pic-paragraph {
     font-size: 16px;
     line-height: 1.87;
     color: var(--secondary-texy-color);
 }
+
+
+/* --------Універсальні--------- */
+.container {
+    width: 1200px;
+    padding-left: 0px 15px;
+    padding-right: 0px 15px;
+    margin: 0 auto;
+}
+
+.buttons-filter-ul {
+    margin-bottom: 50px;
+}
+
+
+
