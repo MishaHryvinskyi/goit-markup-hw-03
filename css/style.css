@@ -76,8 +76,14 @@ margin-bottom: 94px;
 
 .site-nav {
     color: var(--primary-text-color);
+    display: flex;
     
 }
+
+.site-nav .item-nav:not(:last-child) {
+    margin-right: 50px;
+}
+
 .site-nav .header-link,
 .site-nav {
     color: var(--primary-text-color);
@@ -190,6 +196,7 @@ margin-bottom: 94px;
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    
  }
 
 .button-style {
@@ -222,6 +229,14 @@ margin-bottom: 94px;
 
 .section-benefits {
     margin-bottom: 118px;
+}
+
+.list-benefits {
+    display: flex;
+}
+
+.list-benefits .list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .visually-hidden { 
@@ -260,10 +275,19 @@ margin-bottom: 94px;
 }
 .section-work-title {
     padding-bottom: 50px;
+    text-align: center;
 }
 .list-work {
     padding-bottom: var(--secrondary-padding-bottom);
+    display:flex
 }
+.list-work .item-do {
+    margin-right: 30px;
+}
+.list-work .item-do:last-child {
+    margin-right: 0;
+}
+
 /* ------------Наша команда------------*/
 
 .section-team {
