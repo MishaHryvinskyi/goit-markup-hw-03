@@ -47,6 +47,9 @@ ul {
 }
 
 /* ------------Шапка------------*/
+header .auth-nav {
+    display: flex;
+}
 
 .head-top  {
     background-color: var(--primary-fon-color);
