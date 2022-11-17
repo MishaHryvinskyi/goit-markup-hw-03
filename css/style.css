@@ -162,18 +162,14 @@ margin-bottom: 94px;
 /* ------------Герой------------*/
 
 .section-hero {
+    display: block;
     background-color: var(--darc-fon-color);
-    max-width: 1600px;
-    padding-left: auto;
-    padding-right: auto;
-    text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-bottom: var(--secrondary-padding-bottom);
-    
-    
-    
+    text-align: center;  
 }
+
 .hero-title {
     color: var(--primary-fon-color);
     font-weight: 900;
@@ -183,6 +179,7 @@ margin-bottom: 94px;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 
 /* ------------Кнопи------------*/
 
@@ -194,6 +191,7 @@ margin-bottom: 94px;
     color: var(--primary-text-color);
     background-color: var(--secondary-fon-col);
     border: none;
+    
     
 }
 
@@ -225,7 +223,7 @@ margin-bottom: 94px;
  }
 
 .button-style {
-    display: inline-block;
+
     background-color: var(--acent-color);
     color: var(--primary-fon-color);
     border: none;
@@ -234,7 +232,7 @@ margin-bottom: 94px;
     font-size: 16px;
     line-height: 1.87;
     display: flex;
-    align-items: center;
+    display: inline-block;
     background: #2196F3;
     border-radius: 4px;
 
@@ -415,6 +413,9 @@ margin-bottom: 94px;
 
 .port {
     border: 1px solid #ECECEC;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 
