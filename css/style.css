@@ -65,6 +65,8 @@ margin-bottom: 94px;
     line-height: 1.2;
     text-decoration: none;
     color: var(--primary-text-color);
+
+    
 }
 .logo-web {
     color: var(--acent-color)
@@ -76,10 +78,16 @@ margin-bottom: 94px;
     padding-bottom: 25px;
 }
 
+.main-nav {
+    display: flex;
+    align-items: center;
+}
 
 .site-nav {
     color: var(--primary-text-color);
     display: flex;
+    margin-left: 93px;
+    /* margin-right: 344px; */
     
 }
 
@@ -90,6 +98,8 @@ margin-bottom: 94px;
 .site-nav .header-link,
 .site-nav {
     color: var(--primary-text-color);
+
+    
 }
 
 .site-nav .header-link:hover,
@@ -100,6 +110,11 @@ margin-bottom: 94px;
 .header-link:active {
     color: var(--acent-color);
 }
+.header-link {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
 
 .header-link {
     font-weight: 500;
@@ -108,11 +123,17 @@ margin-bottom: 94px;
     letter-spacing: 0.02em;
 }
 
+.auth-nav .item-nav + .item-nav {
+    margin-left: 50px;
+} 
 /* ------------Контатки------------*/
 
 .auth-nav .header-link,
 .auth-nav  {
     color: var(--secondary-texy-color);
+}
+.auth-nav {
+    margin-left: auto;
 }
 
 .auth-nav .header-link:hover,
@@ -149,6 +170,7 @@ margin-bottom: 94px;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-bottom: var(--secrondary-padding-bottom);
+    
     
     
 }
@@ -215,8 +237,7 @@ margin-bottom: 94px;
     align-items: center;
     background: #2196F3;
     border-radius: 4px;
-    padding-left: auto;
-    padding-right: auto;
+
     
 }   
 .button-style:hover,
@@ -383,8 +404,8 @@ margin-bottom: 94px;
 /* --------Універсальні--------- */
 .container {
     width: 1200px;
-    padding-left: 0px 15px;
-    padding-right: 0px 15px;
+    padding-left:  15px;
+    padding-right:  15px;
     margin: 0 auto;
 }
 
@@ -392,5 +413,8 @@ margin-bottom: 94px;
     margin-bottom: 50px;
 }
 
+.port {
+    border: 1px solid #ECECEC;
+}
 
 
