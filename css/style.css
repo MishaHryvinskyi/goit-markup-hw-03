@@ -62,6 +62,7 @@ header .auth-nav {
 
     padding-top: 12px;
     padding-bottom: 13px;
+    border: 1px solid #ECECEC;
 }
 
 
@@ -264,6 +265,9 @@ header .auth-nav {
 }
 /* ------------Наші переваги------------*/
 
+ .section-benefits {
+    padding-top: o;
+}
 
 .list-benefits {
     display: flex;    
