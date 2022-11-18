@@ -46,6 +46,11 @@ ul {
    
 
 }
+.section {
+    padding-top: var(--secrondary-padding-bottom);
+    padding-bottom: var(--secrondary-padding-bottom);
+}
+
 
 /* ------------Шапка------------*/
 header .auth-nav {
@@ -55,8 +60,8 @@ header .auth-nav {
 .head-top  {
     background-color: var(--primary-fon-color);
 
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 12px;
+    padding-bottom: 13px;
 }
 
 
@@ -159,10 +164,10 @@ header .auth-nav {
 .section-hero {
     display: block;
     background-color: var(--darc-fon-color);
-    margin-bottom: var(--secrondary-padding-bottom);
-    text-align: center;  
+    text-align: center; 
     
 }
+
 
 .hero-title {
     color: var(--primary-fon-color);
@@ -215,9 +220,19 @@ header .auth-nav {
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
-    padding: 6px 22px;
+    max-height: 38px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     
  }
+ .button-all {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+ 
 
 .button-style {
 
@@ -249,10 +264,6 @@ header .auth-nav {
 }
 /* ------------Наші переваги------------*/
 
-.section-benefits {
-    margin-bottom: 118px;  
-
-}
 
 .list-benefits {
     display: flex;    
@@ -306,7 +317,7 @@ header .auth-nav {
     text-align: center;
 }
 .list-work {
-    padding-bottom: var(--secrondary-padding-bottom);
+    /* padding-bottom: var(--secrondary-padding-bottom); */
     display:flex;    
     
 }
@@ -321,7 +332,7 @@ header .auth-nav {
 
 .section-team {
     background-color: var(--secondary-fon-col);
-    padding-bottom: var(--secrondary-padding-bottom); 
+    /* padding-bottom: var(--secrondary-padding-bottom);  */
          
 }
 
@@ -421,6 +432,7 @@ border-radius: 0px 0px 4px 4px;
 
 
 /* --------Універсальні--------- */
+
 .container {
     width: 1200px;
     padding-left:  15px;
@@ -478,6 +490,7 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 0;
 }
 
+
 .buttons-filter-ul {
     display: block;
     align-items: center;
@@ -490,7 +503,6 @@ border-radius: 0px 0px 4px 4px;
     
 }
 .portfolio-list {
-    margin-bottom: 94px;
     justify-content: center;
 }
 
