@@ -259,16 +259,18 @@ margin-bottom: 94px;
 
 .section-benefits {
     margin-bottom: 118px;
+    
 }
 
 .list-benefits {
     display: flex;
-    justify-content: center;
+    
     
 }
 
 .list-benefits .list-item:not(:last-child) {
      margin-right: 30px; 
+     
 }
 
 .visually-hidden { 
