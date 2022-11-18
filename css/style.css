@@ -10,6 +10,7 @@
 
     --primary-padding-bottom: 10px;
     --secrondary-padding-bottom: 94px;
+    
 
 }
 /* Палітра кольорів сайту */
@@ -53,10 +54,11 @@ header .auth-nav {
 
 .head-top  {
     background-color: var(--primary-fon-color);
+
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
-.portfolio-top{
-margin-bottom: 94px;
-} 
+
 
 .logo {
     font-family: 'Raleway', 'sans-serif';
@@ -64,19 +66,14 @@ margin-bottom: 94px;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    color: var(--primary-text-color);
-
-    
+    color: var(--primary-text-color);    
 }
 .logo-web {
     color: var(--acent-color)
 }
 
 /* ------------Навігація по сайті------------*/
-.head-top {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
+
 
 .main-nav {
     display: flex;
@@ -86,9 +83,7 @@ margin-bottom: 94px;
 .site-nav {
     color: var(--primary-text-color);
     display: flex;
-    margin-left: 93px;
-    /* margin-right: 344px; */
-    
+    margin-left: 93px;       
 }
 
 .site-nav .item-nav:not(:last-child) {
@@ -97,9 +92,7 @@ margin-bottom: 94px;
 
 .site-nav .header-link,
 .site-nav {
-    color: var(--primary-text-color);
-
-    
+    color: var(--primary-text-color);   
 }
 
 .site-nav .header-link:hover,
@@ -114,9 +107,6 @@ margin-bottom: 94px;
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
-} 
-
-.header-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -169,10 +159,9 @@ margin-bottom: 94px;
 .section-hero {
     display: block;
     background-color: var(--darc-fon-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
     margin-bottom: var(--secrondary-padding-bottom);
     text-align: center;  
+    
 }
 
 .hero-title {
@@ -243,6 +232,9 @@ margin-bottom: 94px;
     display: inline-block;
     background: #2196F3;
     border-radius: 4px;
+    max-width: 216px;
+    max-height: 50px;
+    padding: 10px 32px;
 
     
 }   
@@ -258,19 +250,20 @@ margin-bottom: 94px;
 /* ------------Наші переваги------------*/
 
 .section-benefits {
-    margin-bottom: 118px;
-    
+    margin-bottom: 118px;  
+
 }
 
 .list-benefits {
-    display: flex;
-    
-    
+    display: flex;    
+}
+.list-item {
+    width: 270px;
 }
 
 .list-benefits .list-item:not(:last-child) {
-     margin-right: 30px; 
-     
+     margin-right: 30px;
+
 }
 
 .visually-hidden { 
@@ -314,8 +307,7 @@ margin-bottom: 94px;
 }
 .list-work {
     padding-bottom: var(--secrondary-padding-bottom);
-    display:flex;
-    justify-content: center;
+    display:flex;    
     
 }
 .list-work .item-do {
@@ -329,9 +321,8 @@ margin-bottom: 94px;
 
 .section-team {
     background-color: var(--secondary-fon-col);
-    padding-bottom: var(--secrondary-padding-bottom);
-    
-    
+    padding-bottom: var(--secrondary-padding-bottom); 
+         
 }
 
 .section-title {
@@ -375,6 +366,8 @@ border-radius: 0px 0px 4px 4px;
 
 .footer {
     background-color: var(--darc-fon-color);
+
+    padding-top: 60px ;
 }
 .logo-footer {
     font-family: 'Raleway', 'sans-serif';
@@ -383,6 +376,16 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.2;
     color: var(--primary-fon-color);
     text-decoration: none;
+    
+}
+
+.site-nav-footer > li:not(:last-child) {
+    padding-bottom: 9px;
+}
+
+.site-nav-footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 .address {
     font-style: normal;
@@ -390,10 +393,6 @@ border-radius: 0px 0px 4px 4px;
 .address-item {
     color: var(--primary-fon-color);
     text-decoration: none;
-}
-.address-item:hover,
-.address-item:focus {
-    color: var(--acent-color);
 }
 
 .address-items {
@@ -423,7 +422,7 @@ border-radius: 0px 0px 4px 4px;
 
 /* --------Універсальні--------- */
 .container {
-    width: 1230px;
+    width: 1200px;
     padding-left:  15px;
     padding-right:  15px;
     margin: 0 auto;
@@ -443,7 +442,7 @@ border-radius: 0px 0px 4px 4px;
 .pic-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
     
 
 }
@@ -492,5 +491,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .portfolio-list {
     margin-bottom: 94px;
+    justify-content: center;
 }
 
