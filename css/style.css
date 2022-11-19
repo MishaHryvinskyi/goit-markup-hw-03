@@ -9,7 +9,7 @@
     --work-fon-color:#F5F5F5;
 
     --primary-padding-bottom: 10px;
-    --secrondary-padding-bottom: 94px;
+    
     
 
 }
@@ -47,8 +47,8 @@ ul {
 
 }
 .section {
-    padding-top: var(--secrondary-padding-bottom);
-    padding-bottom: var(--secrondary-padding-bottom);
+    padding-top: 94px;
+    padding-bottom:  94px;
 }
 
 
@@ -162,13 +162,17 @@ header .auth-nav {
 }
 /* ------------Герой------------*/
 
-.section-hero {
+ .section-hero {
     display: block;
     background-color: var(--darc-fon-color);
     text-align: center; 
-    
+    padding-top: 200px;
+    padding-bottom:200px;
 }
 
+.section .section-hero {
+    padding: 0;
+}
 
 .hero-title {
     color: var(--primary-fon-color);
@@ -265,8 +269,9 @@ header .auth-nav {
 }
 /* ------------Наші переваги------------*/
 
- .section-benefits {
-    padding-top: o;
+
+.nopadding {
+    padding-bottom: 0px;
 }
 
 .list-benefits {
@@ -445,9 +450,6 @@ border-radius: 0px 0px 4px 4px;
     
 }
 
-.buttons-filter-ul {
-    margin-bottom: 50px;
-}
 
 .port {
     border: 1px solid #ECECEC;
@@ -503,10 +505,19 @@ border-radius: 0px 0px 4px 4px;
 .buttons-filter {
     display: flex;
     justify-content: center;
-    margin-left: 6px;
     
 }
+.buttons-filter:not(:first-child) {
+    margin-left: 8px;
+}
+
 .portfolio-list {
     justify-content: center;
 }
 
+.nopadding-btn {
+     padding-bottom: 0px; 
+}
+.nopadding-portf {
+    padding-top: 50px;
+}
