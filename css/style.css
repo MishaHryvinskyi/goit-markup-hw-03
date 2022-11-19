@@ -194,7 +194,6 @@ header .auth-nav {
 /* ------------Кнопки портфоліо------------*/
 .buttons-filter  .button {
     font-weight: 500;
-    display: flex;
     font-size: 16px;
     line-height: 1.62;
     color: var(--primary-text-color);
@@ -248,6 +247,7 @@ header .auth-nav {
 }
 .button-market {
     width: 130px;
+    
 }
 
  /* ------------Кнопка секції герой------------*/
@@ -514,8 +514,8 @@ background-color: var(--primary-fon-color);
 
 .buttons-filter {
     display: flex;
-    justify-content: center;
-    
+    justify-content:center;
+   
 }
 .buttons-filter:not(:first-child) {
     margin-left: 8px;
