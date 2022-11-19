@@ -7,6 +7,7 @@
     --darc-fon-color:#2F303A;
     --adres-color:rgba(255, 255, 255, 0.6);
     --work-fon-color:#F5F5F5;
+    --header-border-color:#ECECEC;
 
     --primary-padding-bottom: 10px;
     
@@ -59,10 +60,8 @@ header .auth-nav {
 
 .head-top  {
     background-color: var(--primary-fon-color);
-
-    padding-top: 12px;
-    padding-bottom: 13px;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--header-border-color);
+    
 }
 
 
@@ -111,8 +110,8 @@ header .auth-nav {
 }
 .header-link {
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -163,11 +162,11 @@ header .auth-nav {
 /* ------------Герой------------*/
 
  .section-hero {
-    display: block;
     background-color: var(--darc-fon-color);
     text-align: center; 
     padding-top: 200px;
     padding-bottom:200px;
+    
 }
 
 .section .section-hero {
@@ -176,12 +175,16 @@ header .auth-nav {
 
 .hero-title {
     color: var(--primary-fon-color);
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 
@@ -248,9 +251,8 @@ header .auth-nav {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
     display: inline-block;
-    background: #2196F3;
+    background: var(--acent-color);
     border-radius: 4px;
     max-width: 216px;
     max-height: 50px;
@@ -270,9 +272,6 @@ header .auth-nav {
 /* ------------Наші переваги------------*/
 
 
-.nopadding {
-    padding-bottom: 0px;
-}
 
 .list-benefits {
     display: flex;    
@@ -304,7 +303,7 @@ header .auth-nav {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
-    padding-bottom:var(--primary-padding-bottom) ;
+    margin-bottom:var(--primary-padding-bottom) ;
 }
 .paragraph {
     
@@ -312,6 +311,10 @@ header .auth-nav {
 }
 
 /* ------------Чим ми займаємося------------*/
+
+.nopadding {
+    padding-top: 0px;
+}
 
 .section-work-title {
     font-weight: 700;
@@ -322,7 +325,7 @@ header .auth-nav {
 }
 
 .section-work-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .list-work {
@@ -335,6 +338,13 @@ header .auth-nav {
 }
 .list-work .item-do:last-child {
     margin-right: 0;
+}
+
+.img-item,
+.team-picks {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* ------------Наша команда------------*/
@@ -350,20 +360,22 @@ header .auth-nav {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .paragraph-team {
     font-size: 16px;
     text-align: center;
     color: var(--secondary-texy-color); 
+    margin-bottom: 30px;
 }
 .team-title {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
-    padding-bottom:var(--primary-padding-bottom) ;
+    margin-bottom:var(--primary-padding-bottom) ;
+    
 
 }
 .team {
@@ -379,6 +391,7 @@ header .auth-nav {
 .team-list {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+background-color: var(--primary-fon-color);
 
 }
 
@@ -400,11 +413,11 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .site-nav-footer > li:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .site-nav-footer {
-    padding-top: 20px;
+    margin-top: 20px;
     padding-bottom: 60px;
 }
 .address {
