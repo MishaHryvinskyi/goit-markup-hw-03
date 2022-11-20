@@ -482,7 +482,7 @@ background-color: var(--primary-fon-color);
 
 
 .port {
-    border: 1px solid #ECECEC;
+    border: 1px solid var(--header-border-color);
     border-top: none;
     border-left: none;
     border-right: none;
@@ -516,9 +516,10 @@ background-color: var(--primary-fon-color);
     align-items: center;
 }
 
-.buttons-filter {
+.buttons-filters {
     display: flex;
     justify-content:center;
+    margin-bottom: 50px;
    
 }
 .buttons-filter:not(:first-child) {
@@ -529,12 +530,6 @@ background-color: var(--primary-fon-color);
     justify-content: center;
 }
 
-.nopadding-btn {
-     padding-bottom: 0px; 
-}
-.nopadding-portf {
-    padding-top: 50px;
-}
 
 .cards {
     border: 1px solid var(--color-cards-border);
