@@ -361,9 +361,7 @@ header .auth-nav {
 /* ------------Наша команда------------*/
 
 .section-team {
-    background-color: var(--secondary-fon-col);
-    /* padding-bottom: var(--secrondary-padding-bottom);  */
-         
+    background-color: var(--secondary-fon-col);        
 }
 
 .section-title {
@@ -385,9 +383,7 @@ header .auth-nav {
     font-weight: 500;
     line-height: 1.18;
     text-align: center;
-    margin-bottom:var(--primary-padding-bottom) ;
-    
-
+    margin-bottom:var(--primary-padding-bottom) ;    
 }
 .team {
     display: flex;
@@ -489,10 +485,7 @@ background-color: var(--primary-fon-color);
 }
 .pic-list {
     display: flex;
-    flex-wrap: wrap;
-    
-    
-
+    flex-wrap: wrap;       
 }
 
 .photos-list {
