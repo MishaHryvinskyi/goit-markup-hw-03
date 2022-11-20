@@ -9,6 +9,8 @@
     --work-fon-color:#F5F5F5;
     --header-border-color:#ECECEC;
     --color-cards-border: #EEEEEE;
+    
+
 
     --primary-padding-bottom: 10px;
     
@@ -72,7 +74,8 @@ header .auth-nav {
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    color: var(--primary-text-color);    
+    color: var(--primary-text-color); 
+    margin-right: 93px;   
 }
 .logo-web {
     color: var(--acent-color)
@@ -89,7 +92,8 @@ header .auth-nav {
 .site-nav {
     color: var(--primary-text-color);
     display: flex;
-    margin-left: 93px;       
+    margin-right: 344px;
+        
 }
 
 .site-nav .item-nav:not(:last-child) {
@@ -132,9 +136,7 @@ header .auth-nav {
 .auth-nav  {
     color: var(--secondary-texy-color);
 }
-.auth-nav {
-    margin-left: auto;
-}
+
 
 .auth-nav .header-link:hover,
 .auth-nav .header-link:focus 
@@ -407,11 +409,17 @@ background-color: var(--primary-fon-color);
 /* ------------Підвал------------*/
 
 .footer {
-    background-color: var(--darc-fon-color);
+    background-color: var(--darc-fon-color); 
+    padding-top: 60px;
+    padding-bottom: 60px; 
+}
 
-    padding-top: 60px ;
+.footer-item > .logo-footer {
+    margin-bottom: 20px;
     
 }
+
+
 .logo-footer {
     font-family: 'Raleway', 'sans-serif';
     font-weight: 700;
@@ -419,7 +427,7 @@ background-color: var(--primary-fon-color);
     line-height: 1.2;
     color: var(--primary-fon-color);
     text-decoration: none;
-    
+    display: inline-block;
     
 }
 
@@ -428,11 +436,7 @@ background-color: var(--primary-fon-color);
     
 }
 
-.site-nav-footer {
-    margin-top: 20px;
-    padding-bottom: 60px;
-    
-}
+
 .address {
     font-style: normal;
 }
@@ -534,9 +538,9 @@ background-color: var(--primary-fon-color);
 
 .cards {
     border: 1px solid var(--color-cards-border);
-    border-top: 0px;
+    border-top: none;
     width: 370px;
-    height: 110px;
+
 }
 
 .cards> .pic-title {
