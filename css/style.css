@@ -91,9 +91,11 @@ header .auth-nav {
 
 .site-nav {
     color: var(--primary-text-color);
-    display: flex;
-    margin-right: 344px;
-        
+    display: flex;      
+}
+
+.nav {
+    margin-right: auto;
 }
 
 .site-nav .item-nav:not(:last-child) {
@@ -503,12 +505,6 @@ background-color: var(--primary-fon-color);
     margin-bottom: 0;
 }
 
-
-.buttons-filter-ul {
-    display: block;
-    align-items: center;
-}
-
 .buttons-filters {
     display: flex;
     justify-content:center;
@@ -528,17 +524,12 @@ background-color: var(--primary-fon-color);
     border: 1px solid var(--color-cards-border);
     border-top: none;
     width: 370px;
-
-}
-
-.cards> .pic-title {
-    padding-left: 24px;
-    padding-right: 24px;
     padding-top: 20px;
-    margin-bottom: 4px;
-}
-.cards> .pic-paragraph {
+    padding-bottom: 20px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 20px;
+}
+
+.cards> .pic-title {  
+    margin-bottom: 4px;
 }
